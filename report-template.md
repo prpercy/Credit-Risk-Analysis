@@ -7,12 +7,15 @@
 Technology is making in-roads in finance industry. Financial industry has been using traditional methods to analyse credit risk for loan origination and underwriting. However with advances in technology, industry could use non-traditionals approaches towards credit risk analysis and as a consequence can extend credit to parties that were not part of their scope earlier. By using a dataset of historical lending activity from a peer-to-peer lending services company, this analysis builds a model that can identify the creditworthiness of borrowers. 
 
 * Data
+
 Analysis uses data already loaded in excel file (lending_data.csv).  Data has information available for 75,036 healthy loans and 2,500 high risk loans. Information contains features such as loan size, interest rate, borrower income, debt to income, number of accounts, deregatory marks and total debt.
 
 * Exercise
+
 In our exercise, Loan status ( 0 - healthy loans  vs 1 - high risk loans) is variable that needs to be predicted using financial information (features) such as loan size, interest rate, borrower income, debt to income, number of accounts, deregatory marks and total debt. Our prediction focus is towards high risk loans (i.e. loan status = 1).
 
 * ML Process & Method
+
 The model uses a logistic regression to predict the loan status. This is a type of statistical model used for classification and predictive analytics. Logistic regression estimates the probability of an event occurring based on a given dataset of various variables. Logistic regeression models's predicted variabes are either 0 or 1, as the model predicts whether an outcome will happen or not. Following exercise is performed to analyse health vs high risk loans using logistic regression model. Analysis also accounts for data imbalance (as very few data points are available for the high risk loans) using statistical sampling techniques (such as random over sampling). Towards the end of exercise, analysis checks the efficiency of model using various metrics such as Accuracy, Precision and Recall.
 
 
